@@ -145,7 +145,7 @@ const vendor: VendorConfig = {
   author: "AtlasCloud",
   name: "AtlasCloud MASS",
   description:
-    "Atlas Cloud 是一个全模态 AI 推理平台，开发者只需一个统一的 AI API，即可调用全球顶级的视频生成 API、图像生成 API 和 LLM API。 Atlas Cloud is a full-modal AI inference platform that gives developers a single AI API to access the world's best video generation API, image generation API, LLM API. https://www.atlascloud.ai/?utm_source=github&utm_medium=toonflow&utm_campaign=toonflow",
+    "Atlas Cloud 是一个全模态 AI 推理平台，开发者只需一个统一的 AI API，即可调用全球顶级的视频生成 API、图像生成 API 和 LLM API。 Atlas Cloud is a full-modal AI inference platform that gives developers a single AI API to access the world's best video generation API, image generation API, LLM API. \n [前往中转平台](https://www.atlascloud.ai/?utm_source=github&utm_medium=toonflow&utm_campaign=toonflow)",
   inputs: [
     { key: "apiKey", label: "API密钥", type: "password", required: true, placeholder: "AtlasCloud API Key" },
     { key: "chatBaseUrl", label: "文本基地址", type: "url", required: true, placeholder: "https://api.atlascloud.ai/v1", disabled: true },
